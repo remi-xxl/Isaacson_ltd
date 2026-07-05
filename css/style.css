@@ -675,6 +675,90 @@ ul {
     margin-bottom: 0;
 }
 
+/* ---- Overview Section ---- */
+.overview {
+    background: var(--bg-offwhite);
+}
+
+.overview-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.overview-text p {
+    margin-bottom: 16px;
+    color: var(--text-body);
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.overview-goal {
+    background: linear-gradient(135deg, rgba(26,140,67,0.08), rgba(61,77,183,0.08));
+    border-left: 4px solid var(--secondary-purple);
+    padding: 28px 32px;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.overview-goal h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--secondary-purple);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.overview-goal h3 i {
+    color: var(--primary-green);
+}
+
+.overview-goal p {
+    font-size: 0.95rem;
+    color: var(--text-body);
+    line-height: 1.8;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+/* ---- Service Destinations ---- */
+.service-destinations {
+    margin-top: 18px;
+    padding-top: 16px;
+    border-top: 1px dashed var(--border-color);
+}
+
+.service-destinations h4 {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.service-destinations h4 i {
+    color: var(--primary-green);
+}
+
+.destination-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.destination-tags span {
+    background: linear-gradient(135deg, rgba(26,140,67,0.1), rgba(61,77,183,0.1));
+    color: var(--text-dark);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    font-weight: 500;
+    border: 1px solid rgba(26,140,67,0.15);
+}
+
 /* ---- Services Section ---- */
 .services {
     background: var(--bg-offwhite);
